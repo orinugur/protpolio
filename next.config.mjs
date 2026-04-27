@@ -2,10 +2,12 @@
 const nextConfig = {
   reactStrictMode: true,
   output: 'export',
+  trailingSlash: true,
   images: {
     unoptimized: true,
   },
-  // basePath: '/portpolio', // 만약 https://jade9.github.io/portpolio 주소로 배포하신다면 주석을 해제해주세요!
+  basePath: '/protpolio',
+  assetPrefix: '/protpolio/',
 };
 
 export default nextConfig;
