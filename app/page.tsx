@@ -13,7 +13,7 @@ export default function Home() {
         <h2 style={{ color: 'var(--accent-color)', fontSize: '1.2rem', marginBottom: '20px', letterSpacing: '2px' }} className="floating">
           HELLO, WORLD! I AM
         </h2>
-        <h1 style={{ fontSize: '4.5rem', marginBottom: '20px', lineHeight: 1.1, wordKeepAll: 'keep-all' }} className="title-glow">
+        <h1 style={{ fontSize: '4.5rem', marginBottom: '20px', lineHeight: 1.1, wordBreak: 'keep-all' }} className="title-glow">
           김민석
         </h1>
         <h3 style={{ fontSize: '2.5rem', color: 'var(--text-secondary)', marginBottom: '30px', wordBreak: 'keep-all' }}>
